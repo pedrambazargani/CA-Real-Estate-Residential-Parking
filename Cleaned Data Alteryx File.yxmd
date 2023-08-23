@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\pbaza\Downloads\RealEstate_California.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RealEstate_California.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="id" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="stateId" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="countyId" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="cityId" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="country" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="datePostedString" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="is_bankOwned" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="is_forAuction" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="event" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="time" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="price" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="pricePerSquareFoot" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="state" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="yearBuilt" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="streetAddress" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="zipcode" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="hasBadGeocode" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="description" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="currency" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="livingArea" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="livingAreaValue" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="lotAreaUnits" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="bathrooms" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="bedrooms" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="buildingArea" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="parking" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="garageSpaces" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="hasGarage" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="levels" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="pool" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="spa" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="isNewConstruction" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="hasPetsAllowed" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="homeType" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+            <Field name="county" size="254" source="File: C:\Users\pbaza\Downloads\RealEstate_California.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="id" selected="True" />
+            <SelectField field="event" selected="True" />
+            <SelectField field="price" selected="True" />
+            <SelectField field="pricePerSquareFoot" selected="True" />
+            <SelectField field="city" selected="True" />
+            <SelectField field="state" selected="True" />
+            <SelectField field="zipcode" selected="True" />
+            <SelectField field="parking" selected="True" />
+            <SelectField field="homeType" selected="True" />
+            <SelectField field="county" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="282" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>event</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-08-22 07:07:31</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Listed for sale</Operand>
+              <StartDate>2023-08-22 07:07:31</StartDate>
+              <EndDate>2023-08-22 07:07:31</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[event] = "Listed for sale"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="366" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>county</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-08-22 07:12:49</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Los Angeles County</Operand>
+              <StartDate>2023-08-22 07:12:49</StartDate>
+              <EndDate>2023-08-22 07:12:49</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[county] = "Los Angeles County"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="462" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>homeType</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-08-22 07:14:07</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>LOT</Operand>
+              <StartDate>2023-08-22 07:14:07</StartDate>
+              <EndDate>2023-08-22 07:14:07</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[homeType] != "LOT"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="558" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\pbaza\Downloads\cleanedvalues.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>cleanedvalues.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Cleaned Data Alteryx File</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a260f6d1-74c0-4e35-bf1c-d440fa9d0afa" />
+      <Telemetry>
+        <PreviousWorkflowId value="2da77c30-0f69-4459-ba57-6ed3569523ed" />
+        <OriginWorkflowId value="2da77c30-0f69-4459-ba57-6ed3569523ed" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
